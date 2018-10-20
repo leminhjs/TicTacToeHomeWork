@@ -12,8 +12,10 @@ You should also have some jQuery knowledge. If you don’t, you can check out Be
 
 
 
-How to play:
+How to use:
+
 //Make sure you installed the Node.js on your local machine
+
 1. Clone this repository
 2. Open CMD inside the folder and run `npm install`
 3. Run `npm start`
