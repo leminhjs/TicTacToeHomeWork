@@ -9,3 +9,12 @@ Note:
 Socket.IO is a framework on Node.js. You’ll need node installed.
 You should know intermediate JavaScript. You should be comfortable with things like object prototypes, event handlers, callbacks, IIFE, etc.
 You should also have some jQuery knowledge. If you don’t, you can check out Beginners Guide to DOM Selection with jQuery.
+
+
+
+How to play:
+
+1. Clone this repository
+2. Open CMD inside the folder and run `npm install`
+3. Run `npm start`
+4. Go to http://localhost:5000/ and enjoy
