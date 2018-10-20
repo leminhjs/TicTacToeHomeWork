@@ -252,7 +252,7 @@
 	 */ 
 	$('#join').on('click', function(){
 		var name = $('#nameJoin').val();
-		roomID = $('#room').val();
+		var roomID = $('#room').val();
 		if(!name || !roomID){
 			alert('Please enter your name and game ID.');
 			return;
@@ -315,6 +315,7 @@
 	 */
 	socket.on('gameEnd', function(data){
 		game.endGame(data.message);
+		socket.leave(data.room);
 	})
 
 	/**
