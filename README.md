@@ -1,4 +1,8 @@
 # TicTacToeHomeWork
+<<<<<<< HEAD
+=======
+For homework purpose
+>>>>>>> e5172f1de52fd4413678c2e13c0fb2ca08bd021b
 
 
 I used socket.IO events for communication between client and server. I open connections on the client to connect to the server. Once connected to the server, we will have a two way pipeline through which both client and server can send data to each other. The main advantage of this is that the server can send data to the client without the client even requesting it! This is particularly helpful for scenarios where we need to push data to the client based on some events.
